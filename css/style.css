@@ -1,0 +1,72 @@
+body {
+    background-color: #f2f5ce;
+    font-size: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0 100px;
+}
+
+#board {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: green;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 70px;
+    height: 70px;
+    border: 1px black solid;
+    background-color: whitesmoke;
+}
+
+.player {
+    background-image: url("../images/sprite.png");
+    margin: 10px auto;
+    width: 39px;
+    height: 46px;
+
+    background-repeat: no-repeat;
+
+    background-size: 40px;
+}
+
+.right {
+    background-position-y: -91px;
+}
+
+.up {
+    background-position-y: -137px;
+}
+
+.left {
+    background-position-y: -46px;
+}
+
+.down {
+    background-position-y: 0px;
+}
+
+.target {
+    background-color: lightgreen;
+}
