@@ -24,7 +24,7 @@ const app = {
      * Création du cadrillage du jeu
      */
     drawBoard: () => {
-        const boardElement = document.getElementById("board");
+        const boardElement = document.querySelector(".board");
 
         // Ajout des lignes (rwo)
         for (let rowIndex = 0; rowIndex < 4 ; rowIndex++) {
@@ -80,7 +80,7 @@ const app = {
      * Reset du cadrillage
      */
     clearBoard: () => {
-        const boardElement = document.getElementById("board");
+        const boardElement = document.querySelector(".board");
         boardElement.innerHTML = "";
     },
 
